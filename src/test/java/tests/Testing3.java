@@ -18,7 +18,7 @@ public class Testing3 {
   public void editUser() {
 	  
 	  System.out.println("Before assertion");
-	  softAssert.assertTrue(2 > 3,"Verifying Element"); 
+	  softAssert.assertTrue(4 > 3,"Verifying Element"); 
 	  System.out.println("After assertion");
 	 softAssert.assertAll(); //Similar to error collectror in Junit
 }
@@ -27,9 +27,9 @@ public class Testing3 {
   public void deleteUser() {
 	  System.out.println("I am in end test");
 	  System.out.println("Before assertion");
-	  Assert.assertTrue(2 > 3,"Verifying Element"); 
+	  Assert.assertTrue(4 > 3,"Verifying Element"); 
 	  System.out.println("After assertion");
-	 softAssert.assertEquals("abc","abc1");
+	 softAssert.assertEquals("abc","abc");
 	  System.out.println("After second assertion");
 	  softAssert.assertAll();
   }
